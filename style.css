@@ -1,0 +1,21 @@
+#pixel-art{
+    display: table;
+    background-color: black;
+    border:5px solid black;
+    border-spacing: 1px;
+}
+.row{
+    display: table-row;
+}
+.cell{
+    display: table-cell;
+    background-color: white;
+    width:40px;
+    height: 40px;
+}
+.art{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 2px solid black;
+}
